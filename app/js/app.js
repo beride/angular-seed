@@ -14,3 +14,20 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl2'});
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
+
+
+function MyController($scope) {
+  $scope.clock = {
+    now: new Date()
+  };
+  var updateClock = function() {
+    $scope.clock.now = new Date()
+  };
+  setInterval(function() {
+    $scope.$apply(updateClock);
+  }, 5000);
+  updateClock();
+};
+
+
+
