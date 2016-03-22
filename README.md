@@ -54,6 +54,4 @@
         filtersSpec.js          --> specs for filters
         servicesSpec.js         --> specs for services
 
-## Contact
 
-For more information on AngularJS please check out http://angularjs.org/
