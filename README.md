@@ -103,7 +103,8 @@ fetch the changes and merge them into your project with git.
       css/              --> css files
         app.css         --> default stylesheet
       img/              --> image files
-      index.html        --> app layout file (the main html template file of the app)
+      index1.html        --> app layout file (the main html template file of the app)
+      index.html        --> bootstarp moban html
       index-async.html  --> just like index.html, but loads js files asynchronously
       js/               --> javascript files
         app.js          --> application
